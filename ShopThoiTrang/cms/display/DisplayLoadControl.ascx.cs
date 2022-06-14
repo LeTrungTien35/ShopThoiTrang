@@ -24,7 +24,9 @@ namespace ShopThoiTrang.cms.display
                 case "ThanhVien":
                     plLoadControl.Controls.Add(LoadControl("ThanhVien/ThanhVienLoadControl.ascx"));
                     break;
-
+                case "TinTuc":
+                    plLoadControl.Controls.Add(LoadControl("TinTuc/TinTucLoadControl.ascx"));
+                    break;
                 default:
                     plLoadControl.Controls.Add(LoadControl("TrangChu/TrangChuLoadControl.ascx"));
                     break;

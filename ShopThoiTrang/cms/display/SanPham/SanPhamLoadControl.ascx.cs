@@ -24,6 +24,10 @@ namespace ShopThoiTrang.cms.display.SanPham
                     plLoadControl.Controls.Add(LoadControl("ChiTietSanPham.ascx"));
                     break;
 
+                case "GioHang":
+                    plLoadControl.Controls.Add(LoadControl("GioHang.ascx"));
+
+                    break;
                 default:
                     plLoadControl.Controls.Add(LoadControl("TrangChuModulSanPham.ascx"));
                     break;

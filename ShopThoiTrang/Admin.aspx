@@ -20,8 +20,10 @@
                 <a href="/Admin.aspx"><img src="pic/Logo/emdep.jpg" /></a>
             </div>
             <div class="accountMenu">
-                Xin chào:<asp:Literal ID="ltrTenDangNhap" runat="server"></asp:Literal> | 
-                <asp:LinkButton ID="lbtDangXuat" runat="server" OnClick="lbtDangXuat_Click">Đăng xuất</asp:LinkButton>
+                <b>
+                Xin Chào: <asp:Literal ID="ltrTenDangNhap" runat="server"></asp:Literal> | 
+                <asp:LinkButton ID="lbtDangXuat" runat="server" OnClick="lbtDangXuat_Click">Đăng Xuất </asp:LinkButton>
+                </b>
             </div>     
         </div> 
 

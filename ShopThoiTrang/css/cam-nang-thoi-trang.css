@@ -1,0 +1,89 @@
+﻿body {margin:0;padding:0;background:url(images/nenbody.gif) repeat
+}
+.contener{width:1000px;margin:auto;height:100%}
+
+#dongke{height:3px;background:url(images/lineheader.png) repeat}
+
+/*khu vực đầu trang*/
+#dautrang {background:url(images/bgheader.jpg) repeat;height:120px}
+#logo{height:110px;padding-top:5px;padding-bottom:5px}
+#logochu{width:235px;height:100px;float:left;padding-top:5px;padding-bottom:5px}
+#anh1{width:225px;height:90px;background:url(images/emdep.png) no-repeat center center;padding-top:5px;padding-bottom:5px}
+#logoanh{width:735px;float:left;height:100px;padding-top:5px;padding-bottom:5px;padding-left: 30px}
+#anh2{width:725px;height:90px;background:url(images/emdep1.png) no-repeat;padding-top:5px;padding-bottom:5px}
+
+/*memu đầu trang*/
+#menudautrang{height:40px;background:url(images/menungang_nen.png) repeat;padding:1px}
+#menudautrang .contener{padding:1px}
+#menutrai{float:left;height:40px; width:800px}
+.menungang{height:100%;margin:0px auto;padding: 0px}
+.menu1{float:left; list-style:none;padding:10px 18px 0px 0px}
+.menungang li a{text-decoration: none;border-right:1px solid #ccc;color:white;font:bold 15px SFUEurostileCond;padding: 9px 20px 10px 0px}
+#menutrai a:hover{color:black}
+#dangnhap{float:right;height:40px; width:200px}
+#dangnhap ul{margin:0px;padding:10px 0px}
+#dangnhap ul li{list-style:none;float:right;margin:0}
+#dangnhap ul li a{text-decoration:none; color:black;font:bold 15px SFUEurostileCond}
+.dangnhap1 a{margin: 0px 0px 0px 10px;}
+.dangnhap2 a{margin: 0px 10px;}
+
+/*Link đường dẫn tới thư mục*/
+.inner{width:100%;height:35px;margin-top: 11px;}
+.inner a{float:left; text-decoration:none;line-height: 35px;font: normal 15px SFUEurostileCond;color:#ff006e;line-height:35px}
+.icon{width: 6px;height: 10px;float:left ;background:url(images/road.png)no-repeat center center;margin:13px 5px 12px 5px}
+
+/*thân trang*/
+#thantrang{margin-top:10px;overflow: hidden}
+#thantrang .contener{}
+
+#trangtrai{width:280px;float:left;height:100%;margin-right:5px;overflow: hidden;margin-top: 3px;}
+
+#danhmuc{width:100%;overflow: hidden}
+.daumuc{background:#f75d75;border-radius:7px 7px 0px 0px;height:35px}
+.daumuc > a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left: 53px;color: white}
+.ditmuc{background:#f9dde1;border:1px solid #808080;border-radius:0px 0px 7px 7px}
+#danhmuc ul{list-style: none;padding:0px;margin:0px}
+#danhmuc ul li{height:35px;border-bottom:1px solid #808080;}
+#danhmuc ul li:last-child{border-bottom:0px solid #fff}
+#danhmuc ul li:hover {background:#f8dde1}
+#danhmuc ul li a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left:45px;text-decoration: none;color:#f75d75}
+#danhmuc ul li a:hover{color:black}
+
+.tintucnoibat{width:99%;overflow: hidden;margin-top:15px}
+.title-tin{background:#f75d75;border-radius:7px 7px 0px 0px;height:35px}
+.title-tin > a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left: 53px;color: white}
+.noidungtin{overflow: hidden;border:1px solid #808080;background:#f9dde1;border-radius:0px 0px 7px 7px;padding-top:20px}
+.baosanphamindex{overflow: hidden;width: 100%;float: left;margin-bottom: 20px;}
+
+.khungAnh1{width: 83px;height: 60px;margin-left: 13px;margin-right: 11px;padding: 3px;border: 1px solid #cbcbcb;position: relative;float: left;background: #fff;}
+.khungAnhCrop{width: 83px;height: 60px;display: block;}
+.imgkhunganh{width: 83px; height: 60px;}
+.titlen{font: normal 12px/20px Arial;color: #333;display: block;max-height: 40px;text-decoration: none;}
+
+#thongketruycap{width:100%;overflow: hidden;margin-top:15px}
+.title-thongke{width:100%;height:35px;background:#f75d75;border-radius:7px 7px 0px 0px}
+.title-thongke > a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left: 53px;color: white}
+.so-thongke{overflow: hidden;background:#f9dde1;border:1px solid #808080;border-radius:0px 0px 7px 7px}
+.so-thongke p{margin:0px;margin: 10px 0px 10px 15px;}
+
+#trangphai{width:710px;float:left;overflow: hidden;padding-left:5px;background:#f9dde1;margin-top: 5px}
+.tintuc{overflow: hidden}
+.item{height: 134px;position: relative;margin-bottom: 10px;padding-top:10px;padding-bottom: 20px;border-bottom: 1px dotted #888;}
+.item .khungAnh{width: 210px;height: 130px;margin-left: 5px;margin-right: 20px;float: left;border-radius: 4px;overflow: hidden;position: relative;}
+.item .khungAnhCrop{display: block;width: 210px;height: 130px;}
+
+.imganh{height: 130px; width: 230px}
+.title{font: bold 15px/18px 'Arial';color: #333;display: block;padding-bottom: 8px;text-decoration: none
+}
+.view{color: #888;padding-bottom: 2px;font: 12px/18px 'Arial';padding-left: 25px;padding-right: 20px;background: url(../pic/tin-tuc/veiw.png) no-repeat left center;}
+.date{color: #888;padding-bottom: 2px;font: 12px/18px 'Arial';padding-left: 20px;background: url(../pic/tin-tuc/date.png) no-repeat left center;}
+.item .desc{line-height: 18px;text-align: justify;height: 55px;display: block;font: 12px/18px 'Arial';margin-top: 5px;margin-right: 14px;
+}
+.detail{color: #fff;font: 12px/30px 'Arial';background: #a6a6a6;float: right;border-radius: 30px;padding: 0 10px;margin-right: 14px;}
+
+
+/*chân trang*/
+#footer{height:170px;background:url(images/bgfooter.jpg) no-repeat center center;margin-top:50px}
+#footer .contener{}
+.menufoter  {width: 206px;margin: auto;padding-top: 120px;}  
+

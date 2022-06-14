@@ -26,11 +26,10 @@ namespace ShopThoiTrang.cms.admin.SanPham.QuanLyDanhMuc
             dt = DanhMuc.Thongtin_Danhmuc_by_MaDMCha(madmcha);
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                ltrDanhMuc.Text += @"
-<tr id='maDong_" + dt.Rows[i]["MaDM"] + @"'>
-           <td class='cotMa'>" + dt.Rows[i]["MaDM"] + @"</td>
-           <td class='cotTen'>" + dt.Rows[i]["TenDM"] + @"</td>
-           <td class='cotAnh'>
+                ltrDanhMuc.Text += @"<tr id='maDong_" 
+                + dt.Rows[i]["MaDM"] + @"'><td class='cotMa'>" 
+                + dt.Rows[i]["MaDM"] + @"</td><td class='cotTen'>" 
+                + dt.Rows[i]["TenDM"] + @"</td><td class='cotAnh'>
              <img class='anhDaiDien'src='/pic/SanPham/" + dt.Rows[i]["AnhDaiDien"] + @"'/>
              <img class='anhDaiDienHover'src='/pic/SanPham/" + dt.Rows[i]["AnhDaiDien"] + @"'/>
            </td>
@@ -40,10 +39,7 @@ namespace ShopThoiTrang.cms.admin.SanPham.QuanLyDanhMuc
                     ltrDanhMuc.Text += @"<a href='Admin.aspx?modul=SanPham&modulphu=DanhMuc&madmcha=" + dt.Rows[i]["MaDM"] + @"' class='dmcon' title='Xem danh mục con'></a>";
                 ltrDanhMuc.Text += @"
                <a href='Admin.aspx?modul=SanPham&modulphu=DanhMuc&thaotac=ChinhSua&id=" + dt.Rows[i]["MaDM"] + @"' class='sua' title='Sửa'></a>
-               <a href='javascript:XoaDanhMuc(" + dt.Rows[i]["MaDM"] + @")' class='xoa' title='Xóa'></a>
-           </td>
-</tr>
-";
+               <a href='javascript:XoaDanhMuc(" + dt.Rows[i]["MaDM"] + @")' class='xoa' title='Xóa'></a></td></tr>";
             }
 
         }

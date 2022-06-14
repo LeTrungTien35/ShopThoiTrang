@@ -12,18 +12,7 @@
            <th class="cotAnh">Ảnh đại diện</th>
            <th class="cotThuTu">Thứ tự</th>
            <th class="cotCongCu">Công cụ</th>
-       </tr>
-       <tr>
-           <td class="cotMa">1</td>
-           <td class="cotTen">2</td>
-           <td class="cotAnh">3</td>
-           <td class="cotThuTu">4</td>
-           <td class="cotCongCu">
-               <a href="#" class="dmcon" title="Xem danh mục con"></a>
-               <a href="#" class="sua" title="Sửa"></a>
-               <a href="#" class="xoa" title="Xóa"></a>
-           </td>
-       </tr>
+       </tr>       
        <asp:Literal ID="ltrDanhMuc" runat="server"></asp:Literal>
    </table>
 </div>
