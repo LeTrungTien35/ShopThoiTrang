@@ -92,11 +92,14 @@
     <Content Include="cms\admin\TaiKhoan\TaiKhoan_HienThi.ascx" />
     <Content Include="cms\admin\TaiKhoan\TaiKhoan_ThemMoi.ascx" />
     <Content Include="cms\display\DisplayLoadControl.ascx" />
+    <Content Include="cms\display\SanPham\Ajax\XuLyGioHang.aspx" />
     <Content Include="cms\display\SanPham\ChiTietSanPham.ascx" />
     <Content Include="cms\display\SanPham\DanhSachCacSanPham.ascx" />
     <Content Include="cms\display\SanPham\GioHang.ascx" />
     <Content Include="cms\display\SanPham\SanPhamLoadControl.ascx" />
     <Content Include="cms\display\SanPham\TrangChuModulSanPham.ascx" />
+    <Content Include="cms\display\ThanhVien\DangKy.ascx" />
+    <Content Include="cms\display\ThanhVien\DangNhap.ascx" />
     <Content Include="cms\display\ThanhVien\ThanhVienLoadControl.ascx" />
     <Content Include="cms\display\TinTuc\TinTucLoadControl.ascx" />
     <Content Include="cms\display\TrangChu\TrangChuLoadControl.ascx" />
@@ -139,7 +142,6 @@
     <Content Include="css\images\yahoo-icon.png" />
     <Content Include="css\index.css" />
     <Content Include="css\lien-he.css" />
-    <Content Include="css\san-pham.css" />
     <Content Include="css\tin-tuc.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -181,6 +183,7 @@
     <Content Include="js\full-width-slider.slider\no-jquery.html" />
     <Content Include="js\full-width-slider.slider\with-jquery.html" />
     <Content Include="js\index.js" />
+    <Content Include="js\jquery-1.8.3.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="pic\anhsp\ao-nu.jpg" />
     <Content Include="pic\anhsp\ao-nu1.jpg" />
@@ -376,6 +379,13 @@
     <Compile Include="cms\display\DisplayLoadControl.ascx.designer.cs">
       <DependentUpon>DisplayLoadControl.ascx</DependentUpon>
     </Compile>
+    <Compile Include="cms\display\SanPham\Ajax\XuLyGioHang.aspx.cs">
+      <DependentUpon>XuLyGioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\SanPham\Ajax\XuLyGioHang.aspx.designer.cs">
+      <DependentUpon>XuLyGioHang.aspx</DependentUpon>
+    </Compile>
     <Compile Include="cms\display\SanPham\ChiTietSanPham.ascx.cs">
       <DependentUpon>ChiTietSanPham.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -410,6 +420,20 @@
     </Compile>
     <Compile Include="cms\display\SanPham\TrangChuModulSanPham.ascx.designer.cs">
       <DependentUpon>TrangChuModulSanPham.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\ThanhVien\DangKy.ascx.cs">
+      <DependentUpon>DangKy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\ThanhVien\DangKy.ascx.designer.cs">
+      <DependentUpon>DangKy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\ThanhVien\DangNhap.ascx.cs">
+      <DependentUpon>DangNhap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\ThanhVien\DangNhap.ascx.designer.cs">
+      <DependentUpon>DangNhap.ascx</DependentUpon>
     </Compile>
     <Compile Include="cms\display\ThanhVien\ThanhVienLoadControl.ascx.cs">
       <DependentUpon>ThanhVienLoadControl.ascx</DependentUpon>

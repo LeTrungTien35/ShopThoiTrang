@@ -7,7 +7,7 @@
                     <!-- Source: http://www.jssor.com/demos/full-width-slider.slider -->
                     <!-- This demo works without jquery library. -->
 
-                    <script type="text/javascript" src="../js/full-width-slider.slider/js/jssor.slider-21.1.5.min.js"></script>
+                    <script type="text/javascript" src="/js/full-width-slider.slider/js/jssor.slider-21.1.5.min.js"></script>
                     <!-- use jssor.slider-21.1.5.debug.js instead for debug -->
                     <script>
                         jssor_1_slider_init = function () {
@@ -80,7 +80,7 @@
                                                 /* size of bullet elment */
                                                 width: 16px;
                                                 height: 16px;
-                                                background: url('../js/full-width-slider.slider/img/b05.png') no-repeat;
+                                                background: url('/js/full-width-slider.slider/img/b05.png') no-repeat;
                                                 overflow: hidden;
                                                 cursor: pointer;
                                             }
@@ -117,7 +117,7 @@
                             width: 40px;
                             height: 58px;
                             cursor: pointer;
-                            background: url('../js/full-width-slider.slider/img/a22.png') center center no-repeat;
+                            background: url('/js/full-width-slider.slider/img/a22.png') center center no-repeat;
                             overflow: hidden;
                         }
 
@@ -156,13 +156,13 @@
                         <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 500px; overflow: hidden;">
                             
                             <div data-p="225.00" style="display: none;">                      
-                                <img data-u="image" src="../js/full-width-slider.slider/img/slider/slide1.jpg" />
+                                <img data-u="image" src="/js/full-width-slider.slider/img/slider/slide1.jpg" />
                             </div>
                             <div data-p="225.00" data-po="80% 55%" style="display: none;">                              
-                                <img data-u="image" src="../js/full-width-slider.slider/img/slider/slide2.jpg" />
+                                <img data-u="image" src="/js/full-width-slider.slider/img/slider/slide2.jpg" />
                             </div>
                             <div data-p="225.00" data-po="80% 55%" style="display: none;">
-                                <img data-u="image" src="../js/full-width-slider.slider/img/slider/slide3.jpg" />
+                                <img data-u="image" src="/js/full-width-slider.slider/img/slider/slide3.jpg" />
                             </div>
                             <!--<a data-u="add" href="http://www.jssor.com/demos/full-width-slider.slider" style="display:none">Full Width Slider</a>-->
 
@@ -182,335 +182,6 @@
 
                     <!-- #endregion Jssor Slider End -->
                 </div>
-                <div class="sanpham">
-                    <div id="sanphamnoibat">
-                        <div class="title-line">
-                            <h3>SẢM PHẨM NỔI BẬT</h3>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="sanphammoive">
-                        <div class="title-line">
-                            <h3>HÀNG MỚI VỀ</h3>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="sanphambanchay">
-                        <div class="title-line">
-                            <h3>SẢN PHẨM BÁN CHẠY</h3>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sp_noibat">
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="yếm bò">
-                                    <img src="../js/full-width-slider.slider/img/sanpham/ao2.jpg" alt="yếm bò" />
-                                </a>
-                                <a class="title-sp" href="#" title="yếm bò">
-                                    Yếm bò sooc
-                                </a>
-                                <div class="desc">
-                                    yếm sooc bò nữ
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="sanpham">
+    <asp:Literal ID="ltrNhomSanPham" runat="server"></asp:Literal>
+</div>

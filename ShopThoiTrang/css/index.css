@@ -1,5 +1,6 @@
 ﻿body {margin:0;padding:0;background:url(images/nenbody.gif) repeat
 }
+.cb{clear:both}
 .contener{width:1000px;margin:auto;height:100%}
 
 #dongke{height:3px;background:url(images/lineheader.png) repeat}
@@ -94,6 +95,7 @@
 .title-line{text-align: center;position: relative;display: block;margin-top: 7px}
 .title-line h3{display: inline-block;background: url(images/nenbody.gif);padding: 0px 15px;white-space: nowrap;position: relative;color:#ff006e;z-index: 1}
 .title-line::before{display: table;content: ""; border-top: 1px solid #ea819e;width: 100%;position: absolute;top: 29px;border-bottom: 1px solid #ea819e;padding-top: 1px;}
+.xemchitiet{position:absolute; z-index:1; bottom:6px; right:0; color:#f75d75}
 .sp_noibat{padding-top:8px;overflow: hidden;background:white}
 .item {float:left;text-align:center; border:1px solid #f75d75;margin-right:7px} 
 .item:last-child{margin-right:0px}

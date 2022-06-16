@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChatLieu.cs" />
+    <Compile Include="ChiTietDonDatHang.cs" />
     <Compile Include="DangKy.cs" />
     <Compile Include="DanhMuc.cs" />
+    <Compile Include="DonDatHang.cs" />
+    <Compile Include="KhachHang.cs" />
     <Compile Include="MaHoa.cs" />
     <Compile Include="Mau.cs" />
     <Compile Include="NhomSanPham.cs" />

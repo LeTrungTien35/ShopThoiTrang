@@ -11,5 +11,14 @@ namespace ShopThoiTrang.cms.display.SanPham {
     
     
     public partial class TrangChuModulSanPham {
+        
+        /// <summary>
+        /// ltrNhomSanPham control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal ltrNhomSanPham;
     }
 }

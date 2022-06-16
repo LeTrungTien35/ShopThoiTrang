@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ShopThoiTrang.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="ShopThoiTrang.Default"  %>
 
 <%@ Register Src="~/cms/display/DisplayLoadControl.ascx" TagPrefix="uc1" TagName="DisplayLoadControl" %>
 
@@ -9,6 +9,7 @@
 <head runat="server">
     <title>Shop Quần Áo VipPro</title>
     <link href="css/index.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -32,19 +33,26 @@
         <div class="contener">
             <div id="menutrai">
                 <ul class="menungang">
-                    <li class="menu1"><a href="#">TRANG CHỦ</a></li>
-                    <li class="menu1"><a href="#">GIỚI THIỆU</a></li>
-                    <li class="menu1"><a href="#">SẢN PHẨM</a></li>
-                    <li class="menu1"><a href="#">TIN TỨC</a></li>
-                    <li class="menu1"><a href="#">LIÊN HỆ</a></li>
-                    <li class="menu1"><a href="#">THANH TOÁN</a></li>
+                    <li class="menu1"><a href="Default.aspx">TRANG CHỦ</a></li>
+                    <li class="menu1"><a href="Default.aspx?modul=SanPham">SẢN PHẨM</a></li>   
+                    <li class="menu1"><a href="Default.aspx?modul=TinTuc">TIN TỨC</a></li>                
+                    <li class="menu1"><a href="Default.aspx?modul=ThanhVien">THÀNH VIÊN</a></li>
                 </ul>
             </div>
             <div id="dangnhap">
-                <ul>
-                    <li class="dangnhap1">/<a href="#">Đăng ký</a></li>
-                    <li class="dangnhap2"><a href="#">Đăng nhập</a></li>
-                </ul>
+               <asp:PlaceHolder ID="plChuaDangNhap" runat="server">
+                    <ul>
+                        <li class="dangnhap1">/<a href="Default.aspx?modul=ThanhVien&modulphu=DangKy">Đăng ký</a></li>
+                        <li class="dangnhap2"><a href="Default.aspx?modul=ThanhVien&modulphu=DangNhap">Đăng nhập</a></li>
+                    </ul>
+                </asp:PlaceHolder>
+                
+                <asp:PlaceHolder ID="plDaDangNhap" runat="server" Visible="False">
+                    <ul>
+                        <li class="dangnhap1">/<asp:LinkButton ID="lbtDangXuat" runat="server" CausesValidation="False" OnClick="lbtDangXuat_Click">Đăng xuất</asp:LinkButton></li>
+                        <li class="dangnhap2"><asp:Literal ID="ltrTenKhachHang" runat="server"></asp:Literal></li>
+                    </ul>
+                </asp:PlaceHolder>
             </div>
         </div>
     </div>
@@ -58,7 +66,7 @@
                 </div>
                 <div class="timkiemphai">
                     <div class="giohang">
-                        <div id="cart"></div>
+                        <a id="cart" style="display:inline-block" href="/Default.aspx?modul=SanPham&modulphu=GioHang"></a>
                     </div>
                     <div class="hotline">
                         <div class="label">HOTLINE</div>
@@ -66,10 +74,10 @@
                     </div>
                     <div class="otimkiem">
                         <div class="search">
-                            <form onsubmit="return checksearchForm();" id="searchForm" name="searchForm" method="post" action="">
+                            <div id="searchForm">
                                 <input type="text" class="key" placeholder="Từ khóa tìm kiếm" value="" name="pr_name" id="keysearch">
                                 <input type="submit" value="Tìm kiếm" class="submit">
-                            </form>
+                            </div>
                         </div>           
                     </div>  
                 </div>
@@ -85,9 +93,7 @@
                     <div class="daumuc"><a>DANH MỤC SẢN PHẨM</a></div>
                     <div class="ditmuc">
                         <ul>
-                            <li><a href="#" title="ÁO">ÁO</a></li>
-                            <li><a href="#" title="ĐẦM">ĐẦM</a></li>
-                            <li><a href="#" title="QUẦN">QUẦN</a></li>
+                            <asp:Literal ID="ltrDanhMucSanPHam" runat="server"></asp:Literal>
                         </ul>
                     </div>   
                 </div>
@@ -101,16 +107,10 @@
                     <div class="support">
                         <div class="text-center">
                             <p>
-                                <span class="supp-name">Hồng Anh</span>
+                                <span class="supp-name">Hoài Thu</span>
                                 <br />                    
                                 <span class="phone">090.2234.481</span>
-                            </p>  
-                            <a href="skype:?chat" class="skype">
-                                <img src="../css/images/skype-icon.png" />                     
-                            </a>
-                            <a href="ymsgr:sendim?pinkypinky_vn" class="yahoo">
-                                <img src="../css/images/yahoo-icon.png" />
-                            </a>                          
+                            </p>                        
                         </div>
                         <div class="text-center">
                             <p>
@@ -140,9 +140,9 @@
                                 <br>
                                 Số TK: 0011 0031 68537
                                 <br>
-                                Chủ TK: Hồng Anh
+                                Chủ TK: Lê Trung Tiến
                                 <br>
-                                Chi nhánh Hội sở - Hà Nội
+                                Chi nhánh Thái Nguyên
                             </p>
                         </div>
                         <div class="nganhang">
@@ -152,9 +152,9 @@
                                 <br>
                                 Số TK: 0011 0031 68537
                                 <br>
-                                Chủ TK: Hồng Anh
+                                Chủ TK: Lê Trung Tiến
                                 <br>
-                                Chi nhánh Hội sở - Hà Nội
+                                Chi nhánh Phú Xá
                             </p>
                         </div>
                         <div class="nganhang">
@@ -164,22 +164,13 @@
                                 <br>
                                 Số TK: 0011 0031 68537
                                 <br>
-                                Chủ TK: Hồng Anh
+                                Chủ TK: Lê Trung Tiến
                                 <br>
-                                Chi nhánh Hội sở - Hà Nội
+                                Chi nhánh Tích lương
                             </p>
                         </div>
                     </div>                   
-                </div>
-                <div id="thongketruycap">
-                    <div class="title-thongke">
-                        <a>THỐNG KÊ TRUY CẬP</a>
-                    </div>
-                    <div class="so-thongke">
-                        <p>Đang online: 100000</p>                            
-                        <p>Lượt truy cập: 1000500</p>
-                    </div>
-                </div>
+                </div>                
             </div>
             <div id="trangphai">
                 <uc1:DisplayLoadControl runat="server" id="DisplayLoadControl" />               
@@ -191,7 +182,7 @@
     <div id="footer">
         <div class="contener">
             <div class=" menufoter">
-                <p>©2022 Copyright by Trung Tien</p>
+                <p>©2022 Copyright by TrungTien</p>
             </div>
         </div>
     </div>
